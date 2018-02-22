@@ -6,6 +6,8 @@ int main()
      cout << "Enter a positive number: ";
      cin >> num;
      n = num;
+     if(n<=1000)
+     {
      do
      {
          digit = num % 10;
@@ -14,8 +16,10 @@ int main()
      } while (num != 0);
 
      if (n == rev)
-         cout << " The number is a palindrome";
+         cout << "Yes";
      else
-         cout << " The number is not a palindrome";
+         cout << "Not Palindrome";
+     }
+
     return 0;
 }
