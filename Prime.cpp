@@ -18,7 +18,7 @@ int main()
          }
          if(c==0)
          {
-             cout<<"Prime";
+             cout<<"Yes";
          }
          else
          {
